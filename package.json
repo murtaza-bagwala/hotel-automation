@@ -1,0 +1,16 @@
+{
+  "name": "hotel-automation",
+  "version": "1.0.0",
+  "description": "Service to automate electricity consumption",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --timeout 5000 --recursive  --exit"
+  },
+  "author": "Murtaza Bagwala",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.2.0",
+    "sinon": "9.0.0"
+  }
+}
